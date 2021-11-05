@@ -44,3 +44,42 @@ body {
 .hero-image {
 	border-radius: 15px 15px 0px 0px;
 }
+
+.font-color-blue {
+	color: var(--desaturated-blue);
+}
+
+.title {
+	font-size: 22px;
+	margin: 30px auto 10px;
+}
+
+.phrase {
+	max-width: 350px;
+	margin: 0px auto 20px;
+}
+
+.dark-blue {
+	color: var(--dark-blue);
+}
+
+.plan-section {
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	background: var(--very-pale-blue);
+	border-radius: 10px;
+	padding: 16px;
+	margin: 0 38px 24px;
+}
+
+.change {
+	color: var(--bright-blue);
+	text-decoration: underline;
+	font-size: 12px;
+	margin: auto 10px auto auto;
+}
+
+.annual-plan {
+	margin-left: 26px;
+}
