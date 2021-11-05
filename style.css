@@ -51,6 +51,7 @@ body {
 
 .title {
 	font-size: 22px;
+	font-weight: 900;
 	margin: 30px auto 10px;
 }
 
@@ -82,4 +83,20 @@ body {
 
 .annual-plan {
 	margin-left: 26px;
+}
+
+.payment {
+	background: var(--bright-blue);
+	color: white;
+	font-weight: 700;
+	border-radius: 10px;
+	padding: 16px;
+	margin: 0 38px 24px;
+	box-shadow: 3px 23px 42px -4px rgba(148, 170, 255, 0.69);
+}
+
+.cancel-order {
+	margin-top: 40px;
+	font-size: 14px;
+	font-weight: 700;
 }
