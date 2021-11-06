@@ -1,10 +1,10 @@
 @import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,200;0,300;0,400;0,600;0,700;0,800;0,900;1,200;1,300;1,400;1,500;1,600;1,700;1,800&family=Red+Hat+Display:wght@500;700;900&display=swap");
 
 :root {
-	/* Primary colors */
+	/* Colors */
 	--pale-blue: hsl(225, 100%, 94%);
 	--bright-blue: hsl(245, 75%, 52%);
-	/* Neutral colors */
+	--violet: rgb(125, 102, 207);
 	--very-pale-blue: hsl(225, 100%, 98%);
 	--desaturated-blue: hsl(224, 23%, 55%);
 	--dark-blue: hsl(223, 47%, 23%);
@@ -79,6 +79,13 @@ body {
 	text-decoration: underline;
 	font-size: 12px;
 	margin: auto 10px auto auto;
+	cursor: pointer;
+}
+
+.change:hover {
+	text-decoration: none;
+	color: var(--violet);
+	font-weight: 700;
 }
 
 .annual-plan {
@@ -93,10 +100,21 @@ body {
 	padding: 16px;
 	margin: 0 38px 24px;
 	box-shadow: 3px 23px 42px -4px rgba(148, 170, 255, 0.69);
+	cursor: pointer;
+}
+
+.payment:hover {
+	background: var(--violet);
+	transition: 0.2s;
 }
 
 .cancel-order {
 	margin-top: 40px;
 	font-size: 14px;
 	font-weight: 700;
+	cursor: pointer;
+}
+
+.cancel-order:hover {
+	color: var(--dark-blue);
 }
