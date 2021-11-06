@@ -119,6 +119,8 @@ body {
 	color: var(--dark-blue);
 }
 
+/* Media queries */
+
 @media (max-width: 375px) {
 	.card {
 		max-width: 330px;
