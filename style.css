@@ -118,3 +118,31 @@ body {
 .cancel-order:hover {
 	color: var(--dark-blue);
 }
+
+@media (max-width: 375px) {
+	.card {
+		max-width: 330px;
+		height: 550px;
+	}
+}
+
+@media (max-width: 320px) {
+	.card {
+		max-width: 300px;
+		height: 550px;
+	}
+
+	.phrase {
+		max-width: 250px;
+		margin: 0px auto 20px;
+	}
+
+	.plan-section {
+		padding: 16px;
+		margin: 0 22px 24px;
+	}
+
+	.change {
+		margin: auto 0 auto auto;
+	}
+}
